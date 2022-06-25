@@ -1,0 +1,120 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 560px;
+    background: #f9ca24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user .name {
+    font-size: 56px;
+    color: #fff;
+}
+
+header .navbar{
+    width: 100%;
+}
+
+header .navbar ul{
+    padding: 48px;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding: 16px;
+    margin: 24px 0;
+    background: #222;
+    color: #fff;
+    font-size: 32px;
+    border-radius: 80px;
+}
+
+body {
+    background: black;
+    padding-left: 560px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 240px;
+}
+
+.home h3{
+    font-size: 48px;
+    color: yellow;
+}
+
+.home h1{
+    font-size:80px;
+    color: yellow;
+}
+
+.home p{
+    font-size: 48px;
+    color: yellow;
+  
+}
+
+
+.btn {
+    padding: .112px 48px;
+    background: #f9ca24;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 16px;
+    font-size: 80px;
+    border-radius: 80px;
+}
+
+
+.heading{
+    text-align: center;
+    margin: 0 80px;
+    padding: 16px;
+    border-bottom: .16px solid yellow;
+    
+}
+
+
+.about .row .info{
+    padding: 32px ;
+    padding-left: 96px;
+}
+
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px ;
+    padding-left: 48px;
+}
+.education .box-container .box{
+    width: 432px;
+    margin: 48px;
+    padding-left: 48px;
+    border-left: .32px solid #fff;
+}
+
+.education .box-container .box span {
+    font-size: 64px;
+    background: #f9ca24;
+    color: #fff;
+    border-radius: 32px;
+    padding: 32px 24px;
+}
+
+.education .box-container .box h3{
+    font-size: 48px;
+    color: #fff;
+    padding-top: 80px;
+}
+
